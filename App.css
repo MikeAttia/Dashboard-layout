@@ -1,0 +1,45 @@
+.App{
+background-color: seashell;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 50px 50px;
+  padding: 50px;
+
+}
+.Reviews{
+    background-color: darkslategrey;
+    grid-gap: 50px 50px;
+   text-align: center;
+}
+.AverageRating{
+    background-color: darkslategrey;
+    grid-gap: 50px 50px;
+    text-align: center;
+}
+
+.SentimentAnalysis{
+    background-color:darkslategrey;
+    text-align: center;
+}
+.Sidebar{
+    background-color: darkslategrey;
+    color: seashell;
+   display: grid;
+      grid-row-start: 1;
+  grid-row-end: 4;
+  grid-gap: 50px 50px;
+  text-align: center;
+}
+.WebsiteVisitors{
+    background-color: darkslategrey;
+    color: darkgrey;
+    display:grid;
+    grid-column-start: 2;
+    grid-column-end: 5;
+   grid-row-start: 2;
+   grid-row-end: 4;
+   
+    text-align: center;
+
+}
+
